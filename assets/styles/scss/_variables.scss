@@ -1,14 +1,17 @@
 $shower-slideshow-progress-on: true;
 
 $color-slide-background: #e3e5e7;
+$color-slide-shout-background: #52A2DF;
+$color-slide-cover-background: #000;
 
 $color-list-slide-border-color: darken( $color-slide-background, 20% );
 $color-list-background: darken( $color-list-slide-border-color, 20% );
 
-$color-timeline-line-background: #48b379;
+$color-timeline-line-background: $color-slide-shout-background;
 
 $timeline-line-width: 8px;
 $timeline-line-point: 12px;
+$timeline-line-point-color: #fff;
 $timeline-line-point-active-color: #ff0000;
 $timeline-event-margin: 16px;
 $timeline-event-max-width-base: 140px;

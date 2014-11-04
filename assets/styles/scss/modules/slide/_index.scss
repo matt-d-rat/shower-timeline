@@ -57,6 +57,7 @@
 .Slide-title {
 	margin: 0 0 58px;
     font: 48px/1 'Open Sans', sans-serif;
+    font-weight: bold;
 }
 
 .Slide-bodyText {
@@ -226,7 +227,7 @@
 }
 
 .Slide--cover {
-    background: #000;
+    background: $color-slide-cover-background;
 
     img,
     svg,
@@ -275,7 +276,7 @@
 }
 
 .Slide--shout {
-	background: #52A2DF;
+	background: $color-slide-shout-background;
 
 	.Slide-title {
 		position: absolute;

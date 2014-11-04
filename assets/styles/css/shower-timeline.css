@@ -1,4 +1,4 @@
-/* line 17, /Users/mattfairbrass/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,61 +20,61 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, /Users/mattfairbrass/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, /Users/mattfairbrass/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, /Users/mattfairbrass/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, /Users/mattfairbrass/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, /Users/mattfairbrass/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, /Users/mattfairbrass/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, /Users/mattfairbrass/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, /Users/mattfairbrass/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 3, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/shower-timeline.scss */
+/* line 3, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/shower-timeline.scss */
 body {
   counter-reset: slide;
   font: 24px/2 'Open Sans', sans-serif;
 }
 
-/* line 9, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/shower-timeline.scss */
+/* line 9, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/shower-timeline.scss */
 blockquote,
 q {
   quotes: none;
 }
-/* line 13, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/shower-timeline.scss */
+/* line 13, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/shower-timeline.scss */
 blockquote::before, blockquote::after,
 q::before,
 q::after {
@@ -82,7 +82,7 @@ q::after {
   content: none;
 }
 
-/* line 19, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/shower-timeline.scss */
+/* line 19, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/shower-timeline.scss */
 a {
   color: #52A2DF;
   text-decoration: none;
@@ -91,7 +91,7 @@ a {
 @font-face {
   font-family: "Open Sans";
   src: url('../../fonts/opensans/opensans-regular.eot');
-  src: url('../../fonts/opensans/opensans-regular.eot?#iefix') format('embedded-opentype'), url('../../fonts/opensans/opensans-regular.woff') format('woff'), url('../../fonts/opensans/opensans-regular.ttf') format('truetype'), url('../../fonts/opensans/opensans-regular.svg#open_sansregular') format('svg');
+  src: url('../../fonts/opensans/opensans-regular.eot?#iefix') format('eot'), url('../../fonts/opensans/opensans-regular.woff') format('woff'), url('../../fonts/opensans/opensans-regular.ttf') format('truetype'), url('../../fonts/opensans/opensans-regular.svg#open_sansregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -99,7 +99,7 @@ a {
 @font-face {
   font-family: "Open Sans";
   src: url('../../fonts/opensans/opensans-bold.eot');
-  src: url('../../fonts/opensans/opensans-bold.eot?#iefix') format('embedded-opentype'), url('../../fonts/opensans/opensans-bold.woff') format('woff'), url('../../fonts/opensans/opensans-bold.ttf') format('truetype'), url('../../fonts/opensans/opensans-bold.svg#open_sansbold') format('svg');
+  src: url('../../fonts/opensans/opensans-bold.eot?#iefix') format('eot'), url('../../fonts/opensans/opensans-bold.woff') format('woff'), url('../../fonts/opensans/opensans-bold.ttf') format('truetype'), url('../../fonts/opensans/opensans-bold.svg#open_sansbold') format('svg');
   font-weight: bold;
   font-style: normal;
 }
@@ -107,7 +107,7 @@ a {
 @font-face {
   font-family: "Open Sans";
   src: url('../../fonts/opensans/opensans-italic.eot');
-  src: url('../../fonts/opensans/opensans-italic.eot?#iefix') format('embedded-opentype'), url('../../fonts/opensans/opensans-italic.woff') format('woff'), url('../../fonts/opensans/opensans-italic.ttf') format('truetype'), url('../../fonts/opensans/opensans-italic.svg#open_sansitalic') format('svg');
+  src: url('../../fonts/opensans/opensans-italic.eot?#iefix') format('eot'), url('../../fonts/opensans/opensans-italic.woff') format('woff'), url('../../fonts/opensans/opensans-italic.ttf') format('truetype'), url('../../fonts/opensans/opensans-italic.svg#open_sansitalic') format('svg');
   font-weight: normal;
   font-style: italic;
 }
@@ -115,18 +115,18 @@ a {
 @font-face {
   font-family: "Source Code Pro";
   src: url('../../fonts/corpid/sourcecodepro-italic.eot');
-  src: url('../../fonts/corpid/sourcecodepro-italic.eot?#iefix') format('embedded-opentype'), url('../../fonts/sourcecodepro/sourcecodepro-regular.woff') format('woff'), url('../../fonts/sourcecodepro/sourcecodepro-regular.ttf') format('truetype'), url('../../fonts/sourcecodepro/sourcecodepro-regular.svg#source_code_proregular') format('svg');
+  src: url('../../fonts/corpid/sourcecodepro-italic.eot?#iefix') format('eot'), url('../../fonts/sourcecodepro/sourcecodepro-regular.woff') format('woff'), url('../../fonts/sourcecodepro/sourcecodepro-regular.ttf') format('truetype'), url('../../fonts/sourcecodepro/sourcecodepro-regular.svg#source_code_proregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @media print {
-  /* line 2, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/_print.scss */
+  /* line 2, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/_print.scss */
   body {
     text-rendering: geometricPrecision;
   }
 }
-/* line 1, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/utils/_text-size-adjust.scss */
+/* line 1, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/utils/_text-size-adjust.scss */
 .u-textSizeAdjust, .Slide {
   -webkit-print-color-adjust: exact;
   -webkit-text-size-adjust: none;
@@ -134,7 +134,15 @@ a {
   -ms-text-size-adjust: none;
 }
 
-/* line 1, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 2, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/utils/_vertical-center.scss */
+.u-verticalCenter::after {
+  content: '';
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 1, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide {
   position: relative;
   width: 1024px;
@@ -142,32 +150,32 @@ a {
   background: #e3e5e7;
   color: #000;
 }
-/* line 11, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 11, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide b,
 .Slide strong {
   font-weight: 700;
 }
-/* line 16, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 16, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide i,
 .Slide em {
   font-style: italic;
 }
-/* line 21, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 21, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide sub,
 .Slide sup {
   position: relative;
   line-height: 0;
   font-size: 75%;
 }
-/* line 27, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 27, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide sub {
   bottom: -.25em;
 }
-/* line 30, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 30, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide sup {
   top: -.5em;
 }
-/* line 34, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 34, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide::after {
   position: absolute;
   right: 0;
@@ -180,7 +188,7 @@ a {
   line-height: 1;
 }
 
-/* line 47, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 47, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-inner {
   position: absolute;
   top: 0;
@@ -191,23 +199,24 @@ a {
   height: 540px;
 }
 
-/* line 57, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 57, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-title {
   margin: 0 0 58px;
   font: 48px/1 'Open Sans', sans-serif;
+  font-weight: bold;
 }
 
-/* line 62, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 63, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-bodyText {
   margin: 0 0 48px;
 }
 
-/* line 66, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 67, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-bodyText--note {
   color: #AAA;
 }
 
-/* line 70, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 71, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-codeInline, .Slide-codeBlock code,
 .Slide-codeBlock kbd,
 .Slide-codeBlock samp {
@@ -218,7 +227,7 @@ a {
   font-family: 'Source Code Pro', monospace;
 }
 
-/* line 78, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 79, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-codeBlock {
   margin: 0 0 45px;
   padding: 3px 0 0;
@@ -228,7 +237,7 @@ a {
   -o-tab-size: 4;
   tab-size: 4;
 }
-/* line 93, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 94, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-codeBlock code {
   display: block;
   padding: 0;
@@ -236,7 +245,7 @@ a {
   white-space: pre;
   line-height: 2;
 }
-/* line 100, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 101, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-codeBlock code::before {
   position: absolute;
   margin-left: -50px;
@@ -244,34 +253,34 @@ a {
   counter-increment: code;
   content: counter(code,decimal-leading-zero) ".";
 }
-/* line 109, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 110, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-codeBlock code:only-child::before {
   content: "";
 }
-/* line 115, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 116, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-codeBlock mark {
   padding: 2px 7px;
   background: #FAFAC4;
   color: #000;
   padding: 5px 7px 1px;
 }
-/* line 121, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 122, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-codeBlock mark.is-important {
   background: #52A2DF;
   color: #FFF;
 }
-/* line 126, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 127, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-codeBlock mark.is-comment {
   padding: 0;
   background: 0 0;
   color: #AAA;
 }
 
-/* line 134, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 135, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-blockquote {
   font-style: italic;
 }
-/* line 137, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 138, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-blockquote::before {
   position: absolute;
   margin: -49px 0 0 -100px;
@@ -280,28 +289,28 @@ a {
   line-height: 1;
   font-size: 200px;
 }
-/* line 146, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 147, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-blockquote + .Slide-caption {
   margin: -48px 0 48px;
   font-style: italic;
   font-weight: 700;
 }
 
-/* line 153, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 154, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-list {
   margin: 0 0 48px;
   counter-reset: list;
 }
-/* line 157, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 158, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-list .Slide-list {
   margin: 0 0 0 2em;
 }
 
-/* line 162, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 163, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-list-item {
   text-indent: -2em;
 }
-/* line 165, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 166, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-list-item::before {
   display: inline-block;
   width: 2em;
@@ -309,22 +318,22 @@ a {
   text-align: right;
 }
 
-/* line 175, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 176, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-list--unordered > .Slide-list-item::before {
   content: '\2022\00A0\00A0\2009';
 }
-/* line 178, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 179, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-list--unordered > .Slide-list-item::before:lang(ru) {
   content: "\2014\00A0\2009";
 }
 
-/* line 187, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 188, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-list--ordered > .Slide-list-item::before {
   counter-increment: list;
   content: counter(list) ".\00A0\2009";
 }
 
-/* line 194, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 195, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-table {
   margin: 0 0 50px;
   width: 100%;
@@ -332,39 +341,39 @@ a {
   border-spacing: 0;
 }
 
-/* line 201, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 202, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-table-col {
   background: -webkit-linear-gradient(bottom, #52a2df, #52a2df 0.055em, transparent 0.055em, transparent) repeat-x;
   background: linear-gradient(to top, #52a2df, #52a2df 0.055em, transparent 0.055em, transparent) repeat-x;
 }
 
-/* line 206, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 207, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-table-col--header {
   text-align: left;
   font-weight: 700;
 }
 
-/* line 213, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 214, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-table--striped .Slide-table-row:nth-child(even) {
   background: #f1f7fc;
 }
 
-/* line 220, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 221, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide--cover,
 .Slide--shout {
   z-index: 1;
 }
-/* line 223, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 224, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide--cover::after,
 .Slide--shout::after {
   content: '';
 }
 
-/* line 228, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 229, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide--cover {
-  background: #000;
+  background: black;
 }
-/* line 236, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 237, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide--cover img,
 .Slide--cover svg,
 .Slide--cover video,
@@ -376,7 +385,7 @@ a {
   left: 0;
   z-index: -1;
 }
-/* line 249, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 250, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide--cover.w img,
 .Slide--cover.w svg,
 .Slide--cover.w video,
@@ -389,7 +398,7 @@ a {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-/* line 258, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 259, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide--cover.h {
   left: 50%;
   height: 100%;
@@ -397,7 +406,7 @@ a {
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }
-/* line 267, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 268, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide--cover.w.h {
   top: 0;
   left: 0;
@@ -406,11 +415,11 @@ a {
   transform: none;
 }
 
-/* line 277, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 278, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide--shout {
-  background: #52A2DF;
+  background: #52a2df;
 }
-/* line 280, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 281, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide--shout .Slide-title {
   position: absolute;
   top: 50%;
@@ -422,12 +431,12 @@ a {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-/* line 292, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 293, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide--shout .Slide-hyperlink {
   color: #FFF;
 }
 
-/* line 299, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 300, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-place {
   position: absolute;
   top: 50%;
@@ -436,44 +445,44 @@ a {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-/* line 310, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 311, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-place.t.l, .Slide-place.t.r, .Slide-place.b.r, .Slide-place.b.l {
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
 }
-/* line 317, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 318, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-place.t, .Slide-place.b {
   -webkit-transform: translate(-50%, 0);
   -ms-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
 }
-/* line 324, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 325, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-place.l, .Slide-place.r {
   -webkit-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
 }
-/* line 332, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 333, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-place.t, .Slide-place.t.l, .Slide-place.t.r {
   top: 0;
 }
-/* line 336, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 337, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-place.r {
   right: 0;
   left: auto;
 }
-/* line 343, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 344, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-place.b, .Slide-place.b.r, .Slide-place.b.l {
   top: auto;
   bottom: 0;
 }
-/* line 348, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 349, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-place.l {
   left: 0;
 }
 
-/* line 353, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 354, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-footer {
   position: absolute;
   left: 0;
@@ -487,28 +496,28 @@ a {
   -webkit-transition: bottom .3s;
   transition: bottom .3s;
 }
-/* line 366, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 367, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-footer .Slide-bodyText {
   margin: 0 0 16px;
 }
-/* line 370, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 371, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide-footer mark {
   background: rgba(255, 255, 255, 0.7);
 }
 
-/* line 377, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
+/* line 378, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_index.scss */
 .Slide:hover .Slide-footer {
   bottom: 0;
 }
 
 @media print {
-  /* line 2, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_print.scss */
+  /* line 2, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/slide/_print.scss */
   .slide {
     page-break-before: always;
   }
 }
 @media screen {
-  /* line 2, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/list/_screen.scss */
+  /* line 2, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/list/_screen.scss */
   .list {
     position: absolute;
     clip: rect(0, auto, auto, 0);
@@ -516,7 +525,7 @@ a {
     background: #757f89;
     text-align: center;
   }
-  /* line 9, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/list/_screen.scss */
+  /* line 9, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/list/_screen.scss */
   .list .Slide {
     position: relative;
     top: 270px;
@@ -530,7 +539,7 @@ a {
     -ms-transform: scale(0.5);
     transform: scale(0.5);
   }
-  /* line 22, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/list/_screen.scss */
+  /* line 22, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/list/_screen.scss */
   .list .Slide::before {
     position: absolute;
     top: 0;
@@ -547,20 +556,20 @@ a {
     -ms-transform: scale(2);
     transform: scale(2);
   }
-  /* line 39, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/list/_screen.scss */
+  /* line 39, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/list/_screen.scss */
   .list .Slide::after {
     top: 100%;
     bottom: auto;
     padding-top: 50px;
   }
-  /* line 47, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/list/_screen.scss */
+  /* line 47, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/list/_screen.scss */
   .list .Caption,
   .list .Badge {
     display: block;
   }
 }
 @media screen and (max-width: 1180px) {
-  /* line 54, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/list/_screen.scss */
+  /* line 54, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/list/_screen.scss */
   .list .Slide {
     top: 430px;
     margin: -430px -718px 0 0;
@@ -568,7 +577,7 @@ a {
     -ms-transform: scale(0.25);
     transform: scale(0.25);
   }
-  /* line 61, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/list/_screen.scss */
+  /* line 61, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/list/_screen.scss */
   .list .Slide::before {
     width: 256px;
     height: 160px;
@@ -576,7 +585,7 @@ a {
     -ms-transform: scale(4);
     transform: scale(4);
   }
-  /* line 69, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/list/_screen.scss */
+  /* line 69, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/list/_screen.scss */
   .list .Slide::after {
     width: 512px;
     -webkit-transform-origin: 0 0;
@@ -587,19 +596,19 @@ a {
     transform: scale(2);
   }
 }
-/* line 6, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/list/_index.scss */
+/* line 6, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/list/_index.scss */
 .list .Slide:hover::before {
   box-shadow: 0 0 0 1px #eeeeee, 0 0 0 12px rgba(255, 255, 255, 0.5);
 }
-/* line 12, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/list/_index.scss */
+/* line 12, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/list/_index.scss */
 .list .Slide:target::before {
   box-shadow: 0 0 10px 0 #3c99db, 0 0 0 12px #52A2DF;
 }
-/* line 16, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/list/_index.scss */
+/* line 16, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/list/_index.scss */
 .list .Slide:target::after {
   color: #52A2DF;
 }
-/* line 23, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/list/_index.scss */
+/* line 23, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/list/_index.scss */
 .list .Slide-inner::before {
   position: absolute;
   top: 0;
@@ -609,17 +618,17 @@ a {
   z-index: 2;
   content: '';
 }
-/* line 36, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/list/_index.scss */
+/* line 36, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/list/_index.scss */
 .list .Slide--cover::after,
 .list .Slide--shout::after {
   content: counter(slide);
 }
-/* line 41, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/list/_index.scss */
+/* line 41, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/list/_index.scss */
 .list .Slide-footer {
   display: block;
 }
 
-/* line 1, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/full/_index.scss */
+/* line 1, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/full/_index.scss */
 .full {
   position: absolute;
   top: 50%;
@@ -631,12 +640,12 @@ a {
   background: #000;
 }
 
-/* line 14, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/full/_index.scss */
+/* line 14, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/full/_index.scss */
 .full .Progress {
   display: block;
 }
 
-/* line 3, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/full/_debug.scss */
+/* line 3, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/full/_debug.scss */
 .full.debug::after {
   position: absolute;
   top: 0;
@@ -647,7 +656,7 @@ a {
   background: url(../images/grid-16x10.svg) no-repeat;
   content: '';
 }
-/* line 15, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/full/_debug.scss */
+/* line 15, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/full/_debug.scss */
 .full .live-region {
   position: absolute;
   clip: rect(0 0 0 0);
@@ -659,52 +668,52 @@ a {
   border: none;
   display: block;
 }
-/* line 27, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/full/_debug.scss */
+/* line 27, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/full/_debug.scss */
 .full .Slide {
   position: absolute;
   top: 0;
   left: 0;
   margin-left: 150%;
 }
-/* line 33, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/full/_debug.scss */
+/* line 33, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/full/_debug.scss */
 .full .Slide .next {
   visibility: hidden;
 }
-/* line 36, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/full/_debug.scss */
+/* line 36, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/full/_debug.scss */
 .full .Slide .next.active {
   visibility: visible;
 }
-/* line 41, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/full/_debug.scss */
+/* line 41, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/full/_debug.scss */
 .full .Slide:target {
   margin: 0;
 }
-/* line 49, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/full/_debug.scss */
+/* line 49, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/full/_debug.scss */
 .full .Slide--shout.up .Slide-title, .full .Slide--shout.right .Slide-title {
   opacity: 0;
   -webkit-transition: all .4s ease-out;
   transition: all .4s ease-out;
 }
-/* line 56, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/full/_debug.scss */
+/* line 56, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/full/_debug.scss */
 .full .Slide--shout.up:target .Slide-title, .full .Slide--shout.right:target .Slide-title {
   opacity: 1;
   -webkit-transform: translateX(0) translateY(-50%);
   -ms-transform: translateX(0) translateY(-50%);
   transform: translateX(0) translateY(-50%);
 }
-/* line 66, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/full/_debug.scss */
+/* line 66, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/full/_debug.scss */
 .full .Slide--shout.right .Slide-title {
   -webkit-transform: translateX(-100%) translateY(-50%);
   -ms-transform: translateX(-100%) translateY(-50%);
   transform: translateX(-100%) translateY(-50%);
 }
-/* line 74, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/full/_debug.scss */
+/* line 74, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/full/_debug.scss */
 .full .Slide--shout.up .Slide-title {
   -webkit-transform: translateX(0) translateY(100%);
   -ms-transform: translateX(0) translateY(100%);
   transform: translateX(0) translateY(100%);
 }
 
-/* line 2, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/progress/_index.scss */
+/* line 2, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/progress/_index.scss */
 .Progress {
   display: none;
   position: absolute;
@@ -714,7 +723,7 @@ a {
   z-index: 1;
 }
 
-/* line 11, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/progress/_index.scss */
+/* line 11, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/progress/_index.scss */
 .Progress-inner {
   position: absolute;
   left: 0;
@@ -726,7 +735,7 @@ a {
   transition: width .2s linear;
 }
 
-/* line 1, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/caption/_index.scss */
+/* line 1, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/caption/_index.scss */
 .Caption {
   display: none;
   margin: 0 0 60px;
@@ -734,12 +743,12 @@ a {
   color: #555;
 }
 
-/* line 8, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/caption/_index.scss */
+/* line 8, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/caption/_index.scss */
 .Caption-title {
   font: 50px 'Open Sans', sans-serif;
 }
 
-/* line 1, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/badge/_index.scss */
+/* line 1, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/badge/_index.scss */
 .Badge {
   position: absolute;
   top: 0;
@@ -753,7 +762,7 @@ a {
   font-size: 15px;
 }
 
-/* line 13, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/badge/_index.scss */
+/* line 13, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/badge/_index.scss */
 .Badge-hyperlink {
   position: absolute;
   bottom: 50%;
@@ -771,22 +780,24 @@ a {
   transform: rotate(45deg) translateY(-1em);
 }
 
-/* line 5, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
-.Timeline-line {
+/* line 1, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
+.Timeline {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   display: block;
-  border-top: 8px solid #48b379;
-  width: auto;
+  border-top: 8px solid #52a2df;
+  position: absolute;
+  top: calc(50% - 12px );
+  right: 0;
+  width: 100%;
 }
 
-/* line 12, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
-.Timeline-line-event {
+/* line 11, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
+.Timeline-event {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  background: red;
   margin: 16px;
   padding: 8px;
   position: relative;
@@ -795,39 +806,44 @@ a {
   float: left;
   max-width: 140px;
 }
-/* line 23, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
-.Timeline-line-event::before {
+/* line 21, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
+.Timeline-event::before {
   content: '';
   display: block;
-  background-color: #fff;
+  background-color: white;
   font-family: sans-serif;
   font-size: 20px;
   line-height: 12px;
   border-radius: 12px;
-  border: 6px solid #48b379;
+  border: 6px solid #52a2df;
   height: 12px;
   width: 12px;
   position: absolute;
   top: -32px;
   left: calc(50% - 12px );
 }
-/* line 42, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
-.Timeline-line-event.is-active::before {
+/* line 40, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
+.Timeline-event.is-active::before {
   content: '\25CF';
   color: red;
 }
 
-/* line 49, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
-.Timeline-line-event--medium {
+/* line 47, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
+.Timeline-event--medium {
   max-width: 280px;
 }
 
-/* line 53, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
-.Timeline-line-event--large {
+/* line 51, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
+.Timeline-event--large {
   max-width: 560px;
 }
 
-/* line 39, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/shower-timeline.scss */
+/* line 56, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
+.Timeline-event--noMarker::before {
+  display: none;
+}
+
+/* line 39, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/shower-timeline.scss */
 .live-region {
   display: none;
 }

@@ -13,22 +13,44 @@
 </head>
 <body class="list">
 	<header class="Caption">
-		<h1 class="Caption-title">Where am I now?</h1>
-		<p class="Caption-subtitle">Matt Fairbrass, Lab49</p>
+		<h1 class="Caption-title">Timeline theme for ShowerJS</h1>
+		<p class="Caption-subtitle">by Matt Fairbrass</p>
 	</header>
-	<section class="slide Slide">
-		<div class="Slide-inner">
-			<!--<h2 class="Slide-title">Where am I now?</h2>
-			<p class="Slide-bodyText">Matt Fairbrass | <a href="https://www.twitter.com/matt_d_rat" class="Slide-hyperlink">@matt_d_rat</a></p>-->
+	<section id="slide-1" class="slide Slide">
+		<style>
+			#slide-1 .Slide-title {
+				margin-bottom: 2px;
+			}
 
-			<div class="Timeline">
-				<ul class="Timeline-line">
-					<li class="Timeline-line-event is-active">Item A</li>
-					<li class="Timeline-line-event">This is a longer Item</li>
-					<li class="Timeline-line-event">Item B-2</li>
-				</ul>
-				<!--<img-pulse src="assets/images/matt-holi.png" size="100"></img-pulse>-->
-			</div>
+			#slide-1 .Timeline {
+				right: -42%;
+			}
+			
+			#slide-1 .profile-me {
+				top: -80px;
+			}
+		</style>
+
+		<div class="Slide-inner">			
+			<h2 class="Slide-title">Timeline theme for ShowerJS</h2>
+			<p class="Slide-bodyText">by Matt Fairbrass, <a href="https://www.twitter.com/matt_d_rat" class="Slide-hyperlink">@matt_d_rat</a></p>
+
+			<ul class="Timeline">
+				<li class="Timeline-event Timeline-event--noMarker">
+					<img-pulse src="assets/images/matt-holi.png" class="profile-me" size="100" color="rgba(82,162,223, 0.5)"></img-pulse>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section id="slide-2" class="slide Slide">
+		<div class="Slide-inner">
+			<ul class="Timeline">
+				<li class="Timeline-event">Item A</li>
+				<li class="Timeline-event">Item B</li>
+				<li class="Timeline-event">Item C</li>
+				<li class="Timeline-event">Item D</li>
+			</ul>
 		</div>
 	</section>
 

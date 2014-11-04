@@ -1,17 +1,15 @@
 .Timeline {
-
-}
-
-.Timeline-line {
 	@include box-sizing( border-box );
 	display: block;
 	border-top: $timeline-line-width solid $color-timeline-line-background;
-	width: auto;
+	position: absolute;
+	top: calc( 50% - #{$timeline-line-point} );
+	right: 0;
+	width: 100%;
 }
 
-.Timeline-line-event {
+.Timeline-event {
 	@include box-sizing( border-box );
-	background: red;
 	margin: $timeline-event-margin;
 	padding: 8px;
 	position: relative;
@@ -23,7 +21,7 @@
 	&::before {
 		content: '';
 		display: block;
-		background-color: #fff;
+		background-color: $timeline-line-point-color;
 		font: {
 			family: sans-serif;
 			size: $timeline-line-width + $timeline-line-point;
@@ -46,10 +44,16 @@
 	}
 }
 
-.Timeline-line-event--medium {
+.Timeline-event--medium {
 	max-width: $timeline-event-max-width-base * 2;
 }
 
-.Timeline-line-event--large {
+.Timeline-event--large {
 	max-width: $timeline-event-max-width-base * 4;
+}
+
+.Timeline-event--noMarker {
+	&::before {
+		display: none;
+	}
 }
