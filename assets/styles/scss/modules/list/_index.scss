@@ -1,0 +1,44 @@
+@import 'screen';
+
+.list {
+	.Slide {
+		&:hover {
+			&::before {
+				box-shadow: 0 0 0 1px #EEE, 0 0 0 12px rgba(255, 255, 255, .5);
+			}
+		}
+
+		&:target {
+			&::before {
+				box-shadow: 0 0 10px 0 #3c99db, 0 0 0 12px #52A2DF;
+			}
+
+			&::after {
+				color: #52A2DF;
+			}
+		}
+	}
+
+	.Slide-inner {
+		&::before {
+			position: absolute;
+		    top: 0;
+		    right: 0;
+		    bottom: 0;
+		    left: 0;
+		    z-index: 2;
+		    content: '';
+		}
+	}
+
+	.Slide--cover,
+	.Slide--shout {
+		&::after {
+			content: counter(slide);
+		}
+	}
+
+	.Slide-footer {
+		display: block;
+	}
+}

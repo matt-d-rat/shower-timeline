@@ -1,0 +1,55 @@
+.Timeline {
+
+}
+
+.Timeline-line {
+	@include box-sizing( border-box );
+	display: block;
+	border-top: $timeline-line-width solid $color-timeline-line-background;
+	width: auto;
+}
+
+.Timeline-line-event {
+	@include box-sizing( border-box );
+	background: red;
+	margin: $timeline-event-margin;
+	padding: 8px;
+	position: relative;
+	font-size: 18px;
+	line-height: 20px;
+	float: left;
+	max-width: $timeline-event-max-width-base;
+
+	&::before {
+		content: '';
+		display: block;
+		background-color: #fff;
+		font: {
+			family: sans-serif;
+			size: $timeline-line-width + $timeline-line-point;
+		};
+		line-height: $timeline-line-point;
+		border-radius: $timeline-line-point;
+		border: ($timeline-line-point / 2) solid $color-timeline-line-background;
+		height: $timeline-line-point;
+		width: $timeline-line-point;
+		position: absolute;
+		top: -$timeline-event-margin - ($timeline-line-width / 2) - $timeline-line-point;
+		left: calc( 50% - #{$timeline-line-point} );
+	}
+
+	&.is-active {
+		&::before {
+			content: '\25CF';
+			color: $timeline-line-point-active-color;
+		}
+	}
+}
+
+.Timeline-line-event--medium {
+	max-width: $timeline-event-max-width-base * 2;
+}
+
+.Timeline-line-event--large {
+	max-width: $timeline-event-max-width-base * 4;
+}

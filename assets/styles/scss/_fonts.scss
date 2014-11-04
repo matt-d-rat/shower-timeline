@@ -1,0 +1,47 @@
+@include font-face(
+    'Open Sans', 
+    font-files(
+        'opensans/opensans-regular.woff', 
+        'opensans/opensans-regular.ttf',
+        'opensans/opensans-regular.svg#open_sansregular'
+    ),
+    'opensans/opensans-regular.eot',
+    normal,
+    normal
+);
+
+@include font-face(
+    'Open Sans', 
+    font-files(
+        'opensans/opensans-bold.woff', 
+        'opensans/opensans-bold.ttf',
+        'opensans/opensans-bold.svg#open_sansbold'
+    ),
+    'opensans/opensans-bold.eot',
+    bold,
+    normal
+);
+
+@include font-face(
+    'Open Sans', 
+    font-files(
+        'opensans/opensans-italic.woff', 
+        'opensans/opensans-italic.ttf',
+        'opensans/opensans-italic.svg#open_sansitalic'
+    ),
+    'opensans/opensans-italic.eot',
+    normal,
+    italic
+);
+
+@include font-face(
+    'Source Code Pro', 
+    font-files(
+        'sourcecodepro/sourcecodepro-regular.woff', 
+        'sourcecodepro/sourcecodepro-regular.ttf',
+        'sourcecodepro/sourcecodepro-regular.svg#source_code_proregular'
+    ),
+    'corpid/sourcecodepro-italic.eot',
+    normal,
+    normal
+);

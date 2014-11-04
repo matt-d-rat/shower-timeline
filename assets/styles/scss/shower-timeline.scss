@@ -1,0 +1,46 @@
+@import 'compass/reset';
+
+body {
+    counter-reset: slide;
+    font: 24px/2 'Open Sans', sans-serif;
+}
+
+blockquote, 
+q {
+    quotes: none;
+
+    &::before,
+    &::after {
+    	content: '';
+    	content: none;
+    }
+}
+
+a {
+    color: #52A2DF;
+    //background: -webkit-linear-gradient(bottom, currentColor, currentColor .09em, transparent .09em, transparent)repeat-x;
+    //background: linear-gradient(to top, currentColor, currentColor .09em, transparent .09em, transparent)repeat-x;
+    text-decoration: none;
+}
+
+@import 'compass';
+@import 'fonts';
+@import 'print';
+@import 'variables';
+@import 'utils/index';
+@import 'modules/slide/index';
+@import 'modules/list/index';
+@import 'modules/full/index';
+@import 'modules/progress/index';
+@import 'modules/caption/index';
+@import 'modules/badge/index';
+@import 'modules/timeline/index';
+
+.live-region {
+    display: none;
+}
+
+@page {
+    margin: 0;
+    size: 1024px 640px;
+}

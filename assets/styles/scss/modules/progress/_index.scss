@@ -1,0 +1,21 @@
+@if $shower-slideshow-progress-on == true {
+	.Progress {
+		display: none;
+	    position: absolute;
+	    right: 0;
+	    bottom: 0;
+	    left: 0;
+	    z-index: 1;
+	}
+
+	.Progress-inner {
+	    position: absolute;
+	    left: 0;
+	    bottom: 0;
+	    width: 0;
+	    height: 8px;
+	    background: #52A2DF;
+	    -webkit-transition: width .2s linear;
+	    transition: width .2s linear;
+	}
+}

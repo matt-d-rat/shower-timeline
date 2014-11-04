@@ -1,0 +1,81 @@
+@media screen {
+    .list {
+        position: absolute;
+        clip: rect(0, auto, auto, 0);
+        padding: 50px 0 50px 50px;
+        background: $color-list-background;
+        text-align: center;
+
+        .Slide {
+            position: relative;
+            top: 270px;
+            display: inline-block;
+            margin: -270px -462px 0 0;
+            text-align: left;
+            -webkit-transform-origin: 0 0;
+            -ms-transform-origin: 0 0;
+            transform-origin: 0 0;
+            -webkit-transform: scale(.5);
+            -ms-transform: scale(.5);
+            transform: scale(.5);
+
+            &::before {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                width: 512px;
+                height: 320px;
+                box-shadow: 0 0 0 1px $color-list-slide-border-color;
+                content: '';
+                -webkit-transform-origin: 0 0;
+                -ms-transform-origin: 0 0;
+                transform-origin: 0 0;
+                -webkit-transform: scale(2);
+                -ms-transform: scale(2);
+                transform: scale(2);
+            }
+
+            &::after {
+                top: 100%;
+                bottom: auto;
+                padding-top: 50px;
+            }
+        }
+
+        .Caption,
+        .Badge {
+            display: block;
+        }
+    }
+
+    @media (max-width:1180px) {
+        .list {
+            .Slide {
+                top: 430px;
+                margin: -430px -718px 0 0;
+                -webkit-transform: scale(.25);
+                -ms-transform: scale(.25);
+                transform: scale(.25);
+
+                &::before {
+                    width: 256px;
+                    height: 160px;
+                    -webkit-transform: scale(4);
+                    -ms-transform: scale(4);
+                    transform: scale(4);
+                }
+
+                &::after {
+                    width: 512px;
+                    -webkit-transform-origin: 0 0;
+                    -ms-transform-origin: 0 0;
+                    transform-origin: 0 0;
+                    -webkit-transform: scale(2);
+                    -ms-transform: scale(2);
+                    transform: scale(2);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,386 @@
+.Slide {
+    @extend .u-textSizeAdjust;
+
+    position: relative;
+    width: 1024px;
+    height: 640px;
+    background: $color-slide-background;
+    color: #000;
+
+    b,
+    strong {
+    	font-weight: 700;
+    }
+
+    i,
+    em {
+    	font-style: italic;
+    }
+
+    sub,
+    sup {
+    	position: relative;
+	    line-height: 0;
+	    font-size: 75%;
+    }
+
+    sub {
+    	bottom: -.25em;
+	}
+	sup {
+		top: -.5em;
+	}
+
+    &::after {
+    	position: absolute;
+	    right: 0;
+	    bottom: 45px;
+	    left: 0;
+	    color: #AAA;
+	    counter-increment: slide;
+	    content: counter(slide);
+	    text-align: center;
+	    line-height: 1;
+    }
+}
+
+.Slide-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    padding: 100px 96px 0 128px;
+    width: 800px;
+    height: 540px;
+}
+
+.Slide-title {
+	margin: 0 0 58px;
+    font: 48px/1 'Open Sans', sans-serif;
+}
+
+.Slide-bodyText {
+    margin: 0 0 48px;
+}
+
+.Slide-bodyText--note {
+	color: #AAA;
+}
+
+.Slide-codeInline {
+	padding: 5px 7px 1px;
+    background: rgba(0, 0, 0, .08);
+    color: #000;
+    line-height: 1;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.Slide-codeBlock {
+	margin: 0 0 45px;
+    padding: 3px 0 0;
+    counter-reset: code;
+    white-space: normal;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    code,
+    kbd,
+    samp {
+    	@extend .Slide-codeInline;
+    }
+
+	code {
+    	display: block;
+    	padding: 0;
+    	background: 0 0;
+    	white-space: pre;
+    	line-height: 2;
+
+    	&::before {
+		    position: absolute;
+		    margin-left: -50px;
+		    color: #AAA;
+		    counter-increment: code;
+		    content: counter(code, decimal-leading-zero)'.'
+		}
+
+		&:only-child {
+			&::before {
+			    content: ''
+			}
+		}
+	}
+
+    mark {
+    	padding: 2px 7px;
+    	background: #FAFAC4;
+    	color: #000;
+    	padding: 5px 7px 1px;
+
+    	&.is-important {
+		    background: #52A2DF;
+		    color: #FFF;
+    	}
+
+    	&.is-comment {
+		    padding: 0;
+		    background: 0 0;
+		    color: #AAA;
+    	}
+	}
+}
+
+.Slide-blockquote {
+	font-style: italic;
+
+	&::before {
+	    position: absolute;
+	    margin: -49px 0 0 -100px;
+	    color: #DDD;
+	    content: '\201C';
+	    line-height: 1;
+	    font-size: 200px;
+	}
+
+	& + .Slide-caption {
+	    margin: -48px 0 48px;
+	    font-style: italic;
+	    font-weight: 700;
+	}
+}
+
+.Slide-list {
+	margin: 0 0 48px;
+    counter-reset: list;
+
+    .Slide-list {
+    	margin: 0 0 0 2em;
+    }
+}
+
+.Slide-list-item {
+	text-indent: -2em;
+
+	&::before {
+		display: inline-block;
+		width: 2em;
+	    color: #AAA;
+	    text-align: right;
+	}
+}
+
+.Slide-list--unordered {
+	> .Slide-list-item {
+		&::before {
+			content: '\2022\00A0\00A0\2009';
+
+			&:lang(ru) {
+				content: '\2014\00A0\2009'
+			}
+		}
+	}
+}
+
+.Slide-list--ordered {
+	> .Slide-list-item {
+		&::before {
+    		counter-increment: list;
+			content: counter(list)'.\00A0\2009';
+		}
+	}
+}
+
+.Slide-table {
+	margin: 0 0 50px;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.Slide-table-col {
+	background: -webkit-linear-gradient(bottom, #52A2DF, #52A2DF .055em, transparent .055em, transparent) repeat-x;
+    background: linear-gradient(to top, #52A2DF, #52A2DF .055em, transparent .055em, transparent) repeat-x;
+}
+
+.Slide-table-col--header {
+	text-align: left;
+    font-weight: 700;
+}
+
+.Slide-table--striped {
+	.Slide-table-row {
+		&:nth-child(even) {
+    		background: #f1f7fc;
+		}
+	}
+}
+
+.Slide--cover, 
+.Slide--shout {
+    z-index: 1;
+
+    &::after {
+    	content: '';
+    }
+}
+
+.Slide--cover {
+    background: #000;
+
+    img,
+    svg,
+    video,
+    object,
+    canvas,
+    iframe {
+    	position: absolute;
+	    top: 0;
+	    left: 0;
+	    z-index: -1;
+    }
+
+    &.w {
+    	img,
+	    svg,
+	    video,
+	    object,
+	    canvas,
+	    iframe {
+	    	top: 50%;
+		    width: 100%;
+		    -webkit-transform: translateY(-50%);
+		    -ms-transform: translateY(-50%);
+		    transform: translateY(-50%);
+		}
+    }
+
+    &.h {
+    	left: 50%;
+	    height: 100%;
+	    -webkit-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	    transform: translateX(-50%);
+    }
+
+    &.w {
+    	&.h {
+			top: 0;
+		    left: 0;
+		    -webkit-transform: none;
+		    -ms-transform: none;
+		    transform: none;
+    	}
+    }
+}
+
+.Slide--shout {
+	background: #52A2DF;
+
+	.Slide-title {
+		position: absolute;
+	    top: 50%;
+	    left: 128px;
+	    right: 96px;
+	    color: #FFF;
+	    font-size: 100px;
+	    -webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	    transform: translateY(-50%);
+	}
+
+	.Slide-hyperlink {
+		//background: -webkit-linear-gradient(bottom, currentColor, currentColor .055em, transparent .055em, transparent)repeat-x;
+    	//background: linear-gradient(to top, currentColor, currentColor .055em, transparent .055em, transparent)repeat-x;
+    	color: #FFF;
+	}
+}
+
+.Slide-place {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    &.t.l,
+    &.t.r, 
+    &.b.r,
+    &.b.l {
+    	-webkit-transform: none;
+	    -ms-transform: none;
+	    transform: none;
+	}
+
+	&.t,
+	&.b {
+		-webkit-transform: translate(-50%, 0);
+	    -ms-transform: translate(-50%, 0);
+    	transform: translate(-50%, 0);
+	}
+
+	&.l, 
+	&.r {
+		-webkit-transform: translate(0, -50%);
+	    -ms-transform: translate(0, -50%);
+	    transform: translate(0, -50%);
+	}
+
+	&.t, 
+	&.t.l,
+	&.t.r {
+    	top: 0;
+	}
+
+	&.r {
+    	right: 0;
+    	left: auto;
+	}
+
+	&.b,
+	&.b.r,
+	&.b.l {
+    	top: auto;
+    	bottom: 0;
+	}
+
+	&.l {
+    	left: 0;
+	}
+}
+
+.Slide-footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -640px;
+    z-index: 1;
+    display: none;
+    padding: 21px 96px 4px 128px;
+    background: #FAFAC4;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, .05);
+    -webkit-transition: bottom .3s;
+    transition: bottom .3s;
+
+    .Slide-bodyText {
+    	margin: 0 0 16px;
+    }
+
+    mark {
+    	background: rgba(255, 255, 255, .7);
+    }
+}
+
+.Slide {
+	&:hover {
+		.Slide-footer {
+    		bottom: 0;
+		}
+	}
+}
+
+
+
+@import 'full-slide';
+@import 'print';

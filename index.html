@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Timeline theme for Shower</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=680, user-scalable=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" href="assets/styles/css/shower-timeline.css">
+
+	<script src="bower_components/platform/platform.js"></script>
+	<!-- Custom Polymer Elements -->
+	<link rel="import" href="elements/img-pulse.html" />
+</head>
+<body class="list">
+	<header class="Caption">
+		<h1 class="Caption-title">Where am I now?</h1>
+		<p class="Caption-subtitle">Matt Fairbrass, Lab49</p>
+	</header>
+	<section class="slide Slide">
+		<div class="Slide-inner">
+			<!--<h2 class="Slide-title">Where am I now?</h2>
+			<p class="Slide-bodyText">Matt Fairbrass | <a href="https://www.twitter.com/matt_d_rat" class="Slide-hyperlink">@matt_d_rat</a></p>-->
+
+			<div class="Timeline">
+				<ul class="Timeline-line">
+					<li class="Timeline-line-event is-active">Item A</li>
+					<li class="Timeline-line-event">This is a longer Item</li>
+					<li class="Timeline-line-event">Item B-2</li>
+				</ul>
+				<!--<img-pulse src="assets/images/matt-holi.png" size="100"></img-pulse>-->
+			</div>
+		</div>
+	</section>
+
+	<section class="slide Slide">
+		<div class="Slide-inner">
+			<h2 class="Slide-title">Shower Key Features</h2>
+			<ol class="Slide-list Slide-list--ordered">
+				<li class="Slide-list-item">Built on HTML, CSS and vanilla JavaScript</li>
+				<li class="Slide-list-item">All modern browsers are supported</li>
+				<li class="Slide-list-item">Slide themes are separated from engine</li>
+				<li class="Slide-list-item">Fully keyboard accessible</li>
+				<li class="Slide-list-item">Printable to PDF</li>
+			</ol>
+			<p class="Slide-bodyText Slide-bodyText--note">Shower ['ʃəuə] noun. A person or thing that shows.</p>
+		</div>
+	</section>
+
+	<section class="slide Slide">
+		<div class="Slide-inner">
+			<h2 class="Slide-title">Plain Text on Your Slides</h2>
+			<p class="Slide-bodyText">Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud</em> exercitation ullamco laboris <strong>nisi ut aliquip</strong> ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <code>&lt;culpa&gt;</code> qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</section>
+
+	<section class="slide Slide">
+		<div class="Slide-inner">
+			<h2 class="Slide-title">All Kind of Lists</h2>
+			<ol class="Slide-list Slide-list--ordered">
+				<li class="Slide-list-item">Simple lists are marked with bullets</li>
+				<li class="Slide-list-item">Ordered lists begin with a number</li>
+				<li class="Slide-list-item">You can even nest lists one inside another
+					<ul class="Slide-list Slide-list--unordered">
+						<li class="Slide-list-item">Or mix their types</li>
+						<li class="Slide-list-item">But do not go too far</li>
+						<li class="Slide-list-item">Otherwise audience will be bored</li>
+					</ul>
+				</li>
+				<li class="Slide-list-item">Look, seven rows exactly!</li>
+			</ol>
+		</div>
+	</section>
+
+	<section class="slide Slide">
+		<div class="Slide-inner">
+			<h2 class="Slide-title">Serious Citations</h2>
+			<figure class="Slide-figure">
+				<blockquote class="Slide-blockquote">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+				</blockquote>
+				<figcaption class="Slide-caption">Marcus Tullius Cicero</figcaption>
+			</figure>
+		</div>
+	</section>
+
+	<section class="slide Slide">
+		<div class="Slide-inner">
+			<h2 class="Slide-title">Code Samples</h2>
+			<pre class="Slide-codeBlock">
+				<code>&lt;!DOCTYPE html&gt;</code>
+				<code>&lt;html lang="en"&gt;</code>
+				<code><mark>&lt;head&gt;</mark> <mark class="comment">&lt;!--Comment--&gt;</mark></code>
+				<code>    &lt;title&gt;Shower&lt;/title&gt;</code>
+				<code>    &lt;meta charset="<mark class="important">UTF-8</mark>"&gt;</code>
+				<code>    &lt;link rel="stylesheet" href="screen.css"&gt;</code>
+				<code><mark>&lt;/head&gt;</mark></code>
+			</pre>
+		</div>
+	</section>
+
+	<section class="slide Slide">
+		<div class="Slide-inner">
+			<h2 class="Slide-title">Even Tables</h2>
+			<table class="Slide-table">
+				<tr class="Slide-table-row">
+					<th class="Slide-table-col Slide-table-col--header" 
+						scope="col">Locavore</th>
+					<th class="Slide-table-col">Umami</th>
+					<th class="Slide-table-col">Helvetica</th>
+					<th class="Slide-table-col">Vegan</th>
+				</tr>
+				<tr class="Slide-table-row">
+					<th class="Slide-table-col Slide-table-col--header" 
+						scope="row">Fingerstache</th>
+					<td class="Slide-table-col">Kale</td>
+					<td class="Slide-table-col">Chips</td>
+					<td class="Slide-table-col">Keytar</td>
+				</tr>
+				<tr class="Slide-table-row">
+					<th class="Slide-table-col Slide-table-col--header" 
+						scope="row">Sriracha</th>
+					<td class="Slide-table-col">Gluten-free</td>
+					<td class="Slide-table-col">Ennui</td>
+					<td class="Slide-table-col">Keffiyeh</td>
+				</tr>
+				<tr class="Slide-table-row">
+					<th class="Slide-table-col Slide-table-col--header"
+						scope="row">Thundercats</th>
+					<td class="Slide-table-col">Jean</td>
+					<td class="Slide-table-col">Shorts</td>
+					<td class="Slide-table-col">Biodiesel</td>
+				</tr>
+				<tr class="Slide-table-row">
+					<th class="Slide-table-col Slide-table-col--header"
+						scope="row">Terry</th>
+					<td class="Slide-table-col">Richardson</td>
+					<td class="Slide-table-col">Swag</td>
+					<td class="Slide-table-col">Blog</td>
+				</tr>
+			</table>
+			<p class="Slide-bodyText">It’s good to have information organized.</p>
+		</div>
+	</section>
+
+	<section class="slide Slide Slide--cover" id="Picture">
+		<div class="Slide-inner">
+			<h2 class="Slide-title">Pictures</h2>
+			<img src="pictures/picture.jpg" alt="" />
+			<style>
+				#Picture h2 {
+					color:#FFF;
+					}
+			</style>
+		</div>
+	</section>
+
+	<section class="slide Slide Slide--shout">
+		<div class="Slide-inner">
+			<h2 class="Slide-title">You can even shout this way</h2>
+		</div>
+	</section>
+
+	<section class="slide Slide">
+		<div class="Slide-inner">
+			<h2 class="Slide-title">Inner Navigation</h2>
+			<ol class="Slide-list Slide-list--ordered">
+				<li class="Slide-list-item">Lets you reveal list items one by one</li>
+				<li class="Slide-list-item next">To keep some key points</li>
+				<li class="Slide-list-item next">In secret from audience</li>
+				<li class="Slide-list-item next">But it will work only once</li>
+				<li class="Slide-list-item next">Nobody wants to see the same joke twice</li>
+			</ol>
+		</div>
+	</section>
+
+	<section class="slide Slide Slide--shout" id="SeeMore">
+		<div class="Slide-inner">
+			<h2 class="Slide-title">
+				<img src="pictures/logo.svg" alt="logo" /> <a href="https://github.com/shower/shower" class="Slide-hyperlink">See more on GitHub</a>
+			</h2>
+			<style>
+				#Picture h2 {
+					color:#FFF;
+					}
+				#SeeMore h2 {
+					font-size:100px
+					}
+				#SeeMore img {
+					width:0.72em;
+					height:0.72em;
+					}
+			</style>
+		</div>
+	</section>
+
+	<p class="Badge">
+		<a href="https://github.com/shower/shower" class="Badge-hyperlink">Fork me on Github</a>
+	</p>
+	<!--
+		To hide progress bar from entire presentation
+		just remove “progress” element.
+		-->
+	<div class="progress Progress">
+		<div class="Progress-inner"></div>
+	</div>
+
+	<script src="node_modules/shower-core/shower.min.js"></script>
+</body>
+</html>

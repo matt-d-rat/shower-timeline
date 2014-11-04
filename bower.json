@@ -1,0 +1,25 @@
+{
+    "name": "shower-timeline",
+    "version": "1.0.0",
+    "authors": [
+        "Matt Fairbrass <matt@mattfairbrass.com>"
+    ],
+    "description": "A theme for the ShowerJS presentation engine.",
+    "keywords": [
+        "showerjs",
+        "timeline"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/matt-d-rat/shower-timeline",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+        "dependencies": {
+        "polymer": "Polymer/polymer#~0.4.2"
+    }
+}

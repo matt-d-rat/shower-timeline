@@ -1,0 +1,78 @@
+@keyframes pulsate {
+    0% {
+    	transform: scale(0.1, 0.1); 
+    	opacity: 0.0;
+    }
+    50% {
+    	opacity: 0.8;
+    }
+    100% {
+    	transform: scale(2.4, 2.4); 
+    	opacity: 0.0;
+    }
+}
+
+@-webkit-keyframes pulsate {
+    0% {
+    	-webkit-transform: scale(0.1, 0.1); 
+    	opacity: 0.0;
+    }
+    50% {
+    	opacity: 0.8;
+    }
+    100% {
+    	-webkit-transform: scale(2.4, 2.4); 
+    	opacity: 0.0;
+    }
+}
+
+@-moz-keyframes pulsate {
+    0% {
+    	-moz-transform: scale(0.1, 0.1); 
+    	opacity: 0.0;
+    }
+    50% {
+    	opacity: 0.8;
+    }
+    100% {
+    	-moz-transform: scale(2.4, 2.4); 
+    	opacity: 0.0;
+    }
+}
+
+@-ms-keyframes pulsate {
+    0% {
+    	-ms-transform: scale(0.1, 0.1); 
+    	opacity: 0.0;
+    }
+    50% {
+    	opacity: 0.8;
+    }
+    100% {
+    	-ms-transform: scale(2.4, 2.4); 
+    	opacity: 0.0;
+    }
+}
+
+.pulse {
+	display: block;
+	position: absolute;
+	top: 0;
+	z-index: 0;
+
+	animation: pulsate 1.8s ease-out;
+    animation-iteration-count: infinite;
+    -moz-animation: pulsate 1.8s ease-out;
+    -moz-animation-iteration-count: infinite;
+    -ms-animation: pulsate 1.8s ease-out;
+    -ms-animation-iteration-count: infinite;
+	-webkit-animation: pulsate 1.8s ease-out;
+    -webkit-animation-iteration-count: infinite;
+}
+
+img {
+	border: 2px solid #fff;
+	box-shadow: 0 0 1px 0 #000;
+	position: relative;
+	z-index: 1;
+}

@@ -1,0 +1,33 @@
+<link rel="import" href="../bower_components/polymer/polymer.html" />
+
+<polymer-element name="img-pulse" attributes="src size alt color">
+	<template>
+		<link rel="stylesheet" href="img-pulse.css" />
+		<div class="pulse"></div>
+		<img src="{{src}}" id="pulseImg" height="{{size}}" width="{{size}}" alt="{{alt}}" />
+	</template>
+	<script>	
+		Polymer({
+			src: null,
+			size: 0,
+			alt: '',
+			color: 'rgba(255,0,0, 0.4)',
+			ready: function() {
+				var pulseImg = this.$.pulseImg;
+				var pulse = this.shadowRoot.querySelector('.pulse');
+
+				this.style.display = 'inline-block';
+				this.style.position = 'relative';
+				this.style.width = this.size + 'px';
+				this.style.height = this.size + 'px';
+
+				pulseImg.style.borderRadius = this.size + 'px';
+
+				pulse.style.width = this.size + 'px';
+				pulse.style.height = this.size + 'px';
+				pulse.style.borderRadius = this.size + 'px';
+				pulse.style.backgroundColor = this.color;
+			}
+		});
+	</script>
+</polymer-element>
