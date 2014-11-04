@@ -114,8 +114,16 @@ a {
 
 @font-face {
   font-family: "Source Code Pro";
-  src: url('../../fonts/corpid/sourcecodepro-italic.eot');
-  src: url('../../fonts/corpid/sourcecodepro-italic.eot?#iefix') format('eot'), url('../../fonts/sourcecodepro/sourcecodepro-regular.woff') format('woff'), url('../../fonts/sourcecodepro/sourcecodepro-regular.ttf') format('truetype'), url('../../fonts/sourcecodepro/sourcecodepro-regular.svg#source_code_proregular') format('svg');
+  src: url('../../fonts/sourcecodepro/sourcecodepro-regular.eot');
+  src: url('../../fonts/sourcecodepro/sourcecodepro-regular.eot?#iefix') format('eot'), url('../../fonts/sourcecodepro/sourcecodepro-regular.woff') format('woff'), url('../../fonts/sourcecodepro/sourcecodepro-regular.ttf') format('truetype'), url('../../fonts/sourcecodepro/sourcecodepro-regular.svg#source_code_proregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mono Social Icons Font";
+  src: url('../../fonts/monosocialicons/monosocialicons.eot');
+  src: url('../../fonts/monosocialicons/monosocialicons.eot?#iefix') format('eot'), url('../../fonts/monosocialicons/monosocialicons.woff') format('woff'), url('../../fonts/monosocialicons/monosocialicons.ttf') format('truetype'), url('../../fonts/monosocialicons/monosocialicons.svg#MonoSocialIconsFont') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -126,6 +134,29 @@ a {
     text-rendering: geometricPrecision;
   }
 }
+/* line 9, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/utils/_icons.scss */
+.u-icon,
+a.u-icon::before {
+  font-family: 'Mono Social Icons Font';
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+/* line 23, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/utils/_icons.scss */
+a.u-icon::before {
+  content: attr(data-icon);
+  margin-right: 0.3em;
+  font-size: 130%;
+}
+
 /* line 1, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/utils/_text-size-adjust.scss */
 .u-textSizeAdjust, .Slide {
   -webkit-print-color-adjust: exact;

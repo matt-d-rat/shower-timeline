@@ -41,7 +41,19 @@
         'sourcecodepro/sourcecodepro-regular.ttf',
         'sourcecodepro/sourcecodepro-regular.svg#source_code_proregular'
     ),
-    'corpid/sourcecodepro-italic.eot',
+    'sourcecodepro/sourcecodepro-regular.eot',
+    normal,
+    normal
+);
+
+@include font-face(
+    'Mono Social Icons Font', 
+    font-files(
+        'monosocialicons/monosocialicons.woff', 
+        'monosocialicons/monosocialicons.ttf',
+        'monosocialicons/monosocialicons.svg#MonoSocialIconsFont'
+    ),
+    'monosocialicons/monosocialicons.eot',
     normal,
     normal
 );

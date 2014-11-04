@@ -1,0 +1,27 @@
+// Usage:
+// 
+// <p>Twitter symbol : <span class='symbol'>circletwitterbird</span></p>
+// <p>Twitter symbol with unicode : <span class='symbol'>&#xe286;</span></p>
+// <p><a href='#' class='symbol' title='circletwitterbird'>Follow us</a></p>
+// <p>Unicode : <a href='#' class='symbol' title='&#xe286;'>Follow us</a></p>
+
+.u-icon, 
+a.u-icon::before {
+    font-family: 'Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+a.u-icon::before {
+    content: attr(data-icon);
+    margin-right: 0.3em;
+    font-size: 130%;
+}

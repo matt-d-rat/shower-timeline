@@ -13,43 +13,75 @@
 </head>
 <body class="list">
 	<header class="Caption">
-		<h1 class="Caption-title">Timeline theme for ShowerJS</h1>
-		<p class="Caption-subtitle">by Matt Fairbrass</p>
+		<h1 class="Caption-title">Where am I now?</h1>
+		<p class="Caption-subtitle">Matt Fairbrass, Lab49</p>
 	</header>
-	<section id="slide-1" class="slide Slide">
+
+	<section id="presentation-cover" class="slide Slide Slide--shout">
+		<div class="Slider-inner">
+			<h2 class="Slide-title">Where am I now?</h2>
+		</div>
+	</section>
+
+	<section id="about-me" class="slide Slide">
 		<style>
-			#slide-1 .Slide-title {
+			#about-me .Slide-title {
 				margin-bottom: 2px;
 			}
 
-			#slide-1 .Timeline {
-				right: -42%;
+			#about-me .Timeline {
+				right: -62%;
 			}
 			
-			#slide-1 .profile-me {
+			#about-me .profile-me {
 				top: -80px;
+			}
+
+			#about-me .u-icon {
+				font-size: 160%;
+				margin-left: 44px;
+				vertical-align: middle;
+			}
+
+			#about-me .u-icon:first-child,
+			#about-me .u-icon:only-child {
+				margin-left: 0;
 			}
 		</style>
 
-		<div class="Slide-inner">			
-			<h2 class="Slide-title">Timeline theme for ShowerJS</h2>
-			<p class="Slide-bodyText">by Matt Fairbrass, <a href="https://www.twitter.com/matt_d_rat" class="Slide-hyperlink">@matt_d_rat</a></p>
-
+		<div class="Slide-inner">
 			<ul class="Timeline">
 				<li class="Timeline-event Timeline-event--noMarker">
 					<img-pulse src="assets/images/matt-holi.png" class="profile-me" size="100" color="rgba(82,162,223, 0.5)"></img-pulse>
 				</li>
 			</ul>
+
+			<h2 class="Slide-title">Matt Fairbrass</h2>
+			<p class="Slide-bodyText Slide-bodyText--note">Software engineer, Lab49</p>
+
+			<ul class="Slide-list Slide-list--unordered">
+				<li class="Slide-list-item next">JavaScript, SCSS, PHP, SQF</li>
+				<li class="Slide-list-item next">AngularJS, Polymer, Famous, React</li>
+				<li class="Slide-list-item next">I &#10084; Formula 1, gaming</li>
+				<li class="Slide-list-item next">...and anything to do with zombies</li>
+			</ul>
+
+			<p class="Slide-bodyText social-links">
+				<span class="u-icon">&#xe286;</span> <a href="https://twitter.com/matt_d_rat" class="Slide-hyperlink">@matt_d_rat</a>
+				<span class="u-icon">&#xe239;</span> <a href="https://plus.google.com/+MattFairbrass" class="Slide-hyperlink">Google+</a>
+				<span class="u-icon">&#xe237;</span> <a href="https://github.com/matt-d-rat" class="Slide-hyperlink">GitHub</a>
+				<span class="u-icon">&#xe281;</span> <a href="http://stackoverflow.com/users/1535700/matt-d-rat" class="Slide-hyperlink">Stackoverflow</a>
+			</p>
 		</div>
 	</section>
 
-	<section id="slide-2" class="slide Slide">
+	<section id="slide-3" class="slide Slide">
 		<div class="Slide-inner">
 			<ul class="Timeline">
-				<li class="Timeline-event">Item A</li>
-				<li class="Timeline-event">Item B</li>
-				<li class="Timeline-event">Item C</li>
-				<li class="Timeline-event">Item D</li>
+				<li class="Timeline-event Timeline-event--medium next" data-timestamp="Sept 2006">University of Kent</li>
+				<li class="Timeline-event next">Item B</li>
+				<li class="Timeline-event next">Item C</li>
+				<li class="Timeline-event next">Item D</li>
 			</ul>
 		</div>
 	</section>
