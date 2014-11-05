@@ -17,10 +17,31 @@
 	line-height: 20px;
 	float: left;
 	max-width: $timeline-event-max-width-base;
+	text-align: center;
+
+	&::before,
+	&::after {
+		display: block;
+		position: absolute;
+	}
+
+	&::after {
+		color: $timeline-event-date-color;
+
+		content: attr(data-timestamp);
+		font: {
+			size: 14px;
+			style: italic;
+		};
+
+		left: 0;
+		top: -66px;
+		text-align: center;
+		width: 100%;
+	}
 
 	&::before {
 		content: '';
-		display: block;
 		background-color: $timeline-line-point-color;
 		font: {
 			family: sans-serif;

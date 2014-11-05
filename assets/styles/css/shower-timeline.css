@@ -836,11 +836,27 @@ a.u-icon::before {
   line-height: 20px;
   float: left;
   max-width: 140px;
+  text-align: center;
 }
-/* line 21, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
+/* line 23, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
+.Timeline-event::before, .Timeline-event::after {
+  display: block;
+  position: absolute;
+}
+/* line 28, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
+.Timeline-event::after {
+  color: #757f89;
+  content: attr(data-timestamp);
+  font-size: 14px;
+  font-style: italic;
+  left: 0;
+  top: -66px;
+  text-align: center;
+  width: 100%;
+}
+/* line 43, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
 .Timeline-event::before {
   content: '';
-  display: block;
   background-color: white;
   font-family: sans-serif;
   font-size: 20px;
@@ -853,23 +869,23 @@ a.u-icon::before {
   top: -32px;
   left: calc(50% - 12px );
 }
-/* line 40, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
+/* line 61, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
 .Timeline-event.is-active::before {
   content: '\25CF';
   color: red;
 }
 
-/* line 47, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
+/* line 68, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
 .Timeline-event--medium {
   max-width: 280px;
 }
 
-/* line 51, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
+/* line 72, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
 .Timeline-event--large {
   max-width: 560px;
 }
 
-/* line 56, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
+/* line 77, /Volumes/Hackintosh HD/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
 .Timeline-event--noMarker::before {
   display: none;
 }
