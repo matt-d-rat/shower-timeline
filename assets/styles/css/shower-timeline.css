@@ -855,14 +855,22 @@ a.u-icon::before {
   text-align: center;
   width: 100%;
 }
+/* line 45, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
+.Timeline-event::before {
+  content: '';
+  background-color: #52a2df;
+  height: 16px;
+  top: -9px;
+  left: calc(50% - 6px );
+  width: 6px;
+}
 
-/* line 46, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
+/* line 57, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
 .Timeline-event--major {
   color: black;
 }
-/* line 49, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
+/* line 60, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
 .Timeline-event--major::before {
-  content: '';
   background-color: white;
   font-family: sans-serif;
   font-size: 20px;
@@ -873,25 +881,24 @@ a.u-icon::before {
   width: 12px;
   position: absolute;
   top: -24px;
-  left: calc(50% - 12px );
 }
-/* line 67, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
+/* line 76, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
 .Timeline-event--major.is-active::before {
   content: '\25CF';
   color: red;
 }
 
-/* line 74, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
+/* line 83, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
 .Timeline-event--medium {
   max-width: 280px;
 }
 
-/* line 78, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
+/* line 87, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
 .Timeline-event--large {
   max-width: 560px;
 }
 
-/* line 83, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
+/* line 92, /Users/mattfairbrass/Sites/presentations/shower/themes/shower-timeline/assets/styles/scss/modules/timeline/_index.scss */
 .Timeline-event--noMarker::before {
   display: none;
 }

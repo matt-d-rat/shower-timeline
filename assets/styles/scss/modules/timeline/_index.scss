@@ -10,7 +10,7 @@
 
 .Timeline-event {
 	color: $timeline-event-color-minor;
-	
+
 	@include box-sizing( border-box );
 	margin: $timeline-event-margin;
 	padding: 8px;
@@ -41,13 +41,23 @@
 		text-align: center;
 		width: 100%;
 	}
+
+	&::before {
+		$left-offset: ($timeline-line-point / 2);
+		
+		content: '';
+		background-color: $color-timeline-line-background;
+		height: $timeline-event-margin * 2;
+		top: -($timeline-event-margin + 1px);
+		left: calc( 50% - #{$left-offset} );
+		width: ($timeline-line-point / 2);
+	}
 }
 
 .Timeline-event--major {
 	color: $timeline-event-color-major;
 
 	&::before {
-		content: '';
 		background-color: $timeline-line-point-color;
 		font: {
 			family: sans-serif;
@@ -60,7 +70,6 @@
 		width: $timeline-line-point;
 		position: absolute;
 		top: -$timeline-event-margin - ($timeline-line-width / 2) - $timeline-line-point;
-		left: calc( 50% - #{$timeline-line-point} );
 	}
 
 	&.is-active {
