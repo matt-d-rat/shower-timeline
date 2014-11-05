@@ -13,6 +13,8 @@ $timeline-line-width: 8px;
 $timeline-line-point: 12px;
 $timeline-line-point-color: #fff;
 $timeline-line-point-active-color: #ff0000;
-$timeline-event-margin: 16px;
+$timeline-event-color-major: #000;
+$timeline-event-color-minor: lighten( $timeline-event-color-major, 65% );
+$timeline-event-margin: 8px;
 $timeline-event-max-width-base: 140px;
 $timeline-event-date-color: darken( $color-slide-background, 40% )
